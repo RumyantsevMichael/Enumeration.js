@@ -1,0 +1,22 @@
+{
+  "name": "e-num",
+  "version": "0.1.0",
+  "description": "Enumeration type support for JS",
+  "main": "./lib/enumeration.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RumyantsevMichael/e-num.js.git"
+  },
+  "keywords": [
+    "enum"
+  ],
+  "author": "Rumyantsev Michael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RumyantsevMichael/e-num.js/issues"
+  },
+  "homepage": "https://github.com/RumyantsevMichael/e-num.js#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

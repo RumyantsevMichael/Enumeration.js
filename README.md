@@ -1,8 +1,8 @@
-# Enumeration.js
+# e-num.js
 
 ### Usage
 ```javascript
-import Enumeration from 'Enumeration';
+import Enumeration from 'e-num';
 
 const SUIT = Enumeration.create({
     CLUBS:    1,
