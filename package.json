@@ -1,6 +1,6 @@
 {
   "name": "e-num",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Enumeration type support for JS",
   "main": "./lib/enumeration.js",
   "repository": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/RumyantsevMichael/e-num.js#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./tests/enumeration.spec.js"
   }
 }
