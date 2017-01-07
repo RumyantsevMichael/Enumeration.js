@@ -1,6 +1,9 @@
 {
   "name": "e-num",
-  "version": "0.2.0",
+  "version": "0.3.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
   "description": "Enumeration type support for JS",
   "main": "./lib/enumeration.js",
   "repository": {
@@ -8,7 +11,8 @@
     "url": "git+https://github.com/RumyantsevMichael/e-num.js.git"
   },
   "keywords": [
-    "enum"
+    "enum",
+    "enumeration"
   ],
   "author": "Rumyantsev Michael",
   "license": "MIT",
