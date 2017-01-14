@@ -11,6 +11,7 @@ const SUIT = Enumeration.create({
     SPADES:   4
 });
 
+assert(SUIT.CLUBS instanceof Enumeration);
 assert(SUIT.CLUBS instanceof SUIT);
 assert(SUIT.getByKey('DIAMONDS') === SUIT.DIAMONDS);
 assert(SUIT.getByValue(3) === SUIT.HEARTS);
