@@ -1,11 +1,13 @@
 {
   "name": "e-num",
-  "version": "0.3.0",
+  "version": "0.4.0",
+  "author": "Rumyantsev Michael",
+  "license": "MIT",
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=4.0.0"
   },
   "description": "Enumeration type support for JS",
-  "main": "./lib/enumeration.js",
+  "main": "./dist/enumeration.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RumyantsevMichael/e-num.js.git"
@@ -14,13 +16,16 @@
     "enum",
     "enumeration"
   ],
-  "author": "Rumyantsev Michael",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RumyantsevMichael/e-num.js/issues"
   },
   "homepage": "https://github.com/RumyantsevMichael/e-num.js#readme",
   "scripts": {
-    "test": "node ./tests/enumeration.spec.js"
+    "test": "node ./tests/enumeration.spec.js",
+    "build": "./node_modules/.bin/buble ./lib/enumeration.js > ./dist/enumeration.js",
+    "prepublish": "npm test && npm run build"
+  },
+  "devDependencies": {
+    "buble": "0.15.x"
   }
 }
