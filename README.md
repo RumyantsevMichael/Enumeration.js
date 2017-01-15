@@ -1,5 +1,8 @@
 # e-num.js
 
+### Installation
+`$ npm install -S e-num`
+
 ### Usage
 ```javascript
 import Enumeration from 'e-num';
@@ -11,6 +14,7 @@ const SUIT = Enumeration.create({
     SPADES:   4
 });
 
+assert(SUIT instanceof Enumeration);
 assert(SUIT.CLUBS instanceof Enumeration);
 assert(SUIT.CLUBS instanceof SUIT);
 assert(SUIT.getByKey('DIAMONDS') === SUIT.DIAMONDS);
